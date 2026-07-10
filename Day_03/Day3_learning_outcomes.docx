@@ -1,0 +1,19 @@
+10TH JULY 2026 
+Day 3 Learning Summary – Advanced Python 
+
+Studied advanced Python programming concepts and their practical applications. 
+Learned the fundamentals of Object-Oriented Programming (OOP). 
+Understood the concepts of Classes and Objects and how they are used to organize code. 
+Explored Constructors (__init__) to initialize object attributes. 
+Learned Inheritance to reuse code by creating child classes from parent classes. 
+Studied Polymorphism and how methods can be overridden to provide different implementations. 
+Gained an understanding of Encapsulation by restricting direct access to object data and Abstraction for hiding implementation details. 
+Learned the basics of Iterators and Generators for efficient data traversal and generation. 
+Explored Decorators to extend the functionality of functions without modifying their source code. 
+Understood Context Managers and the use of the with statement for efficient resource management. 
+Learned how to use the Logging module to record application events and debugging information. 
+Studied JSON handling for reading from and writing data to JSON files. 
+Explored REST API consumption using the requests library to retrieve data from web services. 
+Developed a terminal-based Personal Expense Tracker mini project using Python. 
+Implemented OOP concepts such as classes, objects, constructors, methods, loops, conditional statements, and user input while developing the project. 
+Improved understanding of writing interactive Python applications and applying programming concepts through hands-on practice. 
