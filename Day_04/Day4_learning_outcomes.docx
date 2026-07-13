@@ -1,0 +1,92 @@
+Day 4 Learning Outcomes – Mathematics for AI
+
+1. Linear Algebra Basics
+
+* Understood the importance of Linear Algebra in Artificial Intelligence.
+* Learned that AI datasets are represented using vectors, matrices, and tensors.
+* Learned about dimensions (`ndim`) and shapes (`shape`) of NumPy arrays.
+
+2. Scalars, Vectors, Matrices & Tensors
+
+* Scalar (0D): A single numerical value with no direction.
+* Vector (1D): A collection of values representing one data sample or feature list.
+* Matrix (2D): A table of rows and columns where rows represent observations and columns represent features.
+* Tensor (3D+): A collection of multiple matrices used in deep learning, images, videos, and AI applications.
+
+3. Matrix Multiplication
+
+* Learned the rule for matrix multiplication:
+
+* Matrix A (m × n) × Matrix B (n × p)
+* The inner dimensions must be equal.
+* Resulting matrix shape = (m × p).
+* Solved multiple matrix multiplication shape-based problems.
+
+4. Eigenvalues & Eigenvectors (Concept)
+
+* Understood that an eigenvector maintains its direction after a matrix transformation.
+* Learned that the eigenvalue represents the scaling factor of the eigenvector.
+* Explored the role of eigenvalues and eigenvectors in Principal Component Analysis (PCA) for dimensionality reduction.
+
+5. Probability Fundamentals
+
+* Learned the basic probability formula:
+
+* Probability = Favorable Outcomes / Total Outcomes
+* Understood sample space and events.
+* Learned that probability values range from 0 to 1.
+* Discussed AI applications such as spam detection and prediction.
+
+6. Bayes' Theorem (Concept)
+
+* Learned that Bayes' Theorem updates probabilities when new evidence becomes available.
+* Understood its applications in spam filtering, medical diagnosis, fraud detection, and Naive Bayes classification.
+
+7. Measures of Central Tendency
+
+* Mean: Arithmetic average of all values.
+* Median: Middle value after sorting the data.
+* Mode: Most frequently occurring value.
+* Learned when each measure should be used, especially in the presence of outliers.
+
+8. Variance & Standard Deviation
+
+* Learned that variance measures how spread out data is from the mean.
+* Understood that standard deviation is the square root of variance and is easier to interpret because it has the same units as the data.
+* Learned that higher standard deviation indicates greater variability.
+
+9. Correlation
+
+* Understood the relationship between two variables.
+* Positive Correlation: Both variables move in the same direction.
+* Negative Correlation: Variables move in opposite directions.
+* No Correlation: No meaningful relationship exists.
+* Learned that **correlation does not imply causation**.
+
+10. Normal Distribution
+
+* Learned the characteristics of a normal (bell-shaped) distribution.
+* Understood that in a perfect normal distribution:
+
+* Mean = Median = Mode.
+* Learned the 68–95–99.7 rule.
+* Understood that outliers are rare in normally distributed data.
+
+11. Introduction to Calculus (Gradients)
+
+* Learned the concept of gradients as the direction of the steepest increase.
+* Understood Gradient Descent as the optimization technique used to reduce model error during machine learning training.
+* Learned the basic intuition behind how ML models learn from errors.
+
+
+Key AI Connections
+
+* Linear Algebra is used to represent and manipulate datasets.
+* Statistics helps summarize and understand data.
+* Probability measures uncertainty in predictions.
+* Bayes' Theorem updates predictions using new evidence.
+* Correlation helps identify relationships between features.
+* Normal Distribution is common in real-world datasets.
+* Gradients and Gradient Descent are fundamental to training machine learning models.
+
+
