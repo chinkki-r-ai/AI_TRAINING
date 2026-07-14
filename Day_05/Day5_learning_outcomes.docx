@@ -1,0 +1,44 @@
+Day 5 – Data Structures & Algorithms (DSA) Learning Outcomes
+
+Topics Covered
+
+* Understood Time Complexity and Space Complexity
+* learned to analyze algorithm efficiency using Big-O notation.
+* Learned Arrays in Python (Lists), including indexing, traversal, insertion, deletion, searching, and their time complexities.
+* Studied Linked Lists, including node structure, advantages, disadvantages, and differences between arrays and linked lists.
+* Implemented and understood Stacks (LIFO) using Python lists with operations such as Push, Pop, Peek, and isEmpty.
+* Implemented and understood Queues (FIFO) using Python lists and `collections.deque`, including Enqueue, Dequeue, Peek, and their applications.
+* Learned Hash Maps (Dictionaries) in Python, including key-value storage, CRUD operations, iteration, hashing concept, and frequency counting applications.
+* Studied Trees, including Root, Parent, Child, Leaf Node, Binary Trees, and Binary Search Trees (BST), along with their properties and applications.
+* Implemented and compared Searching Algorithms:
+
+  * Linear Search
+  * Binary Search
+  * Compared their working principles, prerequisites, and time complexities.
+
+* Studied Sorting Algorithms:
+
+  * Bubble Sort
+  * Selection Sort
+  * Insertion Sort
+  * Merge Sort (Concept)
+  * Quick Sort (Concept)
+* Learned Recursion, including recursive functions, base cases, recursive calls, and implemented recursive solutions for Factorial, Sum of N Numbers, and Fibonacci sequence.
+
+Key Concepts Learned
+
+* Time & Space Complexity Analysis
+* Big-O Notation
+* Linear vs Hierarchical Data Structures
+* LIFO vs FIFO
+* Arrays vs Linked Lists
+* Binary Tree vs Binary Search Tree
+* Linear Search vs Binary Search
+* Comparison of Common Sorting Algorithms
+* Dictionary Operations
+* Recursive Problem Solving using Base Cases
+
+Learning Outcome
+
+Successfully developed a strong foundational understanding of Data Structures and Algorithms (DSA), including algorithm analysis, searching, sorting, recursion, and the implementation of fundamental data structures in Python. Gained hands-on coding experience along with conceptual knowledge required for technical interviews and AI/ML programming fundamentals.
+
