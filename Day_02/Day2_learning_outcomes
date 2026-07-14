@@ -1,0 +1,25 @@
+9TH JULY 2026 
+Day 2 Learning Summary – Python Programming Fundamentals 
+
+Topics Covered 
+
+Variables & Data Types:  
+Variables are used to store data in memory.  
+Python is dynamically typed, so variable types are assigned automatically. Explored data types: int, float, str, bool, list, tuple, set, and dictionary. 
+Input & Output: Used input () to accept user input and print () to display output. 
+Operators: Arithmetic, Comparison, Logical, Assignment, Membership, Identity.... 
+Conditional Statements: Implemented decision-making using if, if-else, and if-elif-else. Solved problems based on conditions 
+Loops: Learned for and while loop. Learned break and continue statements. 
+Functions: Understood parameters, arguments, and the difference between print() and return. 
+Lambda Functions: Learned anonymous functions using the lambda keyword. 
+Worked on list and set comprehension (basic understanding and basic codes) 
+Briefly learnt about below mentioned topics: 
+Exception Handling 
+File Handling 
+Modules & Packages 
+
+Learning Outcome: 
+
+I developed a strong understanding of Python programming fundamentals, including control flow, functions, exception handling, file operations, and code organization. I also strengthened my problem-solving skills by implementing multiple coding exercises. 
+
+ 
