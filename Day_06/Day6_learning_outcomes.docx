@@ -1,0 +1,29 @@
+Day 6 – Data Analysis & Preprocessing (Learning Summary)
+Date: 15-Jul-2026
+
+Topics Covered:
+NumPy Arrays, Broadcasting, Pandas DataFrame, Reading CSV/Excel/JSON, Filtering, GroupBy, Missing Value Handling, Data Preprocessing, Feature Engineering Basics
+
+Summary:
+
+Today's session focused on the core building blocks of data analysis in Python using NumPy and Pandas, followed by practical data cleaning and preprocessing techniques used before feeding data into machine learning models.
+
+Started with NumPy arrays — homogeneous, multi-dimensional structures that enable fast vectorized operations. Learned broadcasting, which lets NumPy apply operations (like adding a scalar or a row vector) across entire arrays without explicit loops, forming the mathematical basis for many Pandas operations.
+
+Moved to Pandas DataFrames — 2D labeled tables used to store and manipulate structured data. Practiced reading real-world data files using pd.read_csv(), pd.read_excel(), and pd.read_json(), and explored a dataset using .info() and .describe() to understand its structure and quality.
+
+Learned filtering, using boolean conditions to extract specific subsets of rows based on one or more conditions.
+
+Covered groupby(), which follows the "split-apply-combine" pattern to summarize data by category (e.g., average income per city), using both single and multiple aggregation functions via .agg().
+
+Practiced missing value handling — detecting NaNs with .isnull().sum(), and choosing between dropping rows (dropna()) or imputing values (fillna()) using median (for skewed numeric data) or mode (for categorical data), depending on the situation.
+
+Explored data preprocessing techniques: encoding categorical columns using LabelEncoder, and scaling numeric columns using StandardScaler so no single feature dominates a model due to scale differences.
+
+Finally, practiced feature engineering — creating new, more meaningful features from raw columns, such as a Debt-to-Income ratio, a Tenure (in years) feature derived from a date column, and an Age_Group feature created via binning (pd.cut()).
+
+Hands-on Deliverable:
+Built and executed a complete data cleaning Jupyter notebook (Day6_Data_Cleaning.ipynb) on a synthetic messy customer dataset (customers_raw.csv), applying every concept above end-to-end — from raw data to a fully cleaned, encoded, scaled, and feature-engineered output (customers_cleaned.csv).
+
+Key Takeaway:
+Real-world data is rarely clean — a structured workflow (explore → handle missing values → remove duplicates/standardize text → filter/summarize → encode & scale → engineer features) is essential before any data can be reliably used for analysis or machine learning.
