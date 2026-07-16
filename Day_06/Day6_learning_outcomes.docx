@@ -1,29 +1,33 @@
-Day 6 – Data Analysis & Preprocessing (Learning Summary)
-Date: 15-Jul-2026
+Day 6 — Data Analysis & Preprocessing 
 
-Topics Covered:
-NumPy Arrays, Broadcasting, Pandas DataFrame, Reading CSV/Excel/JSON, Filtering, GroupBy, Missing Value Handling, Data Preprocessing, Feature Engineering Basics
+Date: 15-Jul-2026 
 
-Summary:
+Topics Covered :
 
-Today's session focused on the core building blocks of data analysis in Python using NumPy and Pandas, followed by practical data cleaning and preprocessing techniques used before feeding data into machine learning models.
+NumPy Arrays, Broadcasting, Pandas DataFrame, Reading CSV/Excel/JSON, Filtering, GroupBy, Missing Value Handling, Data Preprocessing, Feature Engineering Basics. 
 
-Started with NumPy arrays — homogeneous, multi-dimensional structures that enable fast vectorized operations. Learned broadcasting, which lets NumPy apply operations (like adding a scalar or a row vector) across entire arrays without explicit loops, forming the mathematical basis for many Pandas operations.
+Overview :
 
-Moved to Pandas DataFrames — 2D labeled tables used to store and manipulate structured data. Practiced reading real-world data files using pd.read_csv(), pd.read_excel(), and pd.read_json(), and explored a dataset using .info() and .describe() to understand its structure and quality.
+Today's focus was learning how to load, explore, clean, and prepare real-world data using NumPy and Pandas — the core toolkit for any data analysis or machine learning task. 
 
-Learned filtering, using boolean conditions to extract specific subsets of rows based on one or more conditions.
+Key Points 
 
-Covered groupby(), which follows the "split-apply-combine" pattern to summarize data by category (e.g., average income per city), using both single and multiple aggregation functions via .agg().
+*NumPy arrays and broadcasting let us perform fast math operations on data without writing loops. 
 
-Practiced missing value handling — detecting NaNs with .isnull().sum(), and choosing between dropping rows (dropna()) or imputing values (fillna()) using median (for skewed numeric data) or mode (for categorical data), depending on the situation.
+*Pandas DataFrames store tabular data; files can be loaded directly from CSV, Excel, or JSON. 
 
-Explored data preprocessing techniques: encoding categorical columns using LabelEncoder, and scaling numeric columns using StandardScaler so no single feature dominates a model due to scale differences.
+*Filtering and groupby help extract and summarize specific parts of a dataset. 
 
-Finally, practiced feature engineering — creating new, more meaningful features from raw columns, such as a Debt-to-Income ratio, a Tenure (in years) feature derived from a date column, and an Age_Group feature created via binning (pd.cut()).
+*Missing values were handled using median (numeric) and mode (categorical) filling. 
 
-Hands-on Deliverable:
-Built and executed a complete data cleaning Jupyter notebook (Day6_Data_Cleaning.ipynb) on a synthetic messy customer dataset (customers_raw.csv), applying every concept above end-to-end — from raw data to a fully cleaned, encoded, scaled, and feature-engineered output (customers_cleaned.csv).
+*Preprocessing included encoding categories and scaling numeric columns for ML readiness. 
 
-Key Takeaway:
-Real-world data is rarely clean — a structured workflow (explore → handle missing values → remove duplicates/standardize text → filter/summarize → encode & scale → engineer features) is essential before any data can be reliably used for analysis or machine learning.
+*Feature engineering created new, more useful columns like Debt-to-Income ratio and Age Group. 
+
+*Hands-on Deliverable 
+
+*Built and ran a complete data cleaning notebook (Day6_Data_Cleaning.ipynb) on a sample messy dataset, producing a fully cleaned and feature-engineered output file. 
+
+Key Takeaway :
+
+Clean, well-structured data is the foundation of good analysis — a consistent workflow (explore, clean, filter, summarize, preprocess, engineer) makes any dataset ready for real use. 
