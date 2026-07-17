@@ -1,0 +1,29 @@
+DAY 7 - SUMMARY: DATA VISUALIZATION & SQL
+==========================================
+
+TOPICS COVERED TODAY
+- Matplotlib basics (Figure, Axes, plot, title, labels)
+- Basic charts (line chart, bar chart)
+- Histograms
+- Scatter plots
+- Correlation heatmaps (concept + implementation)
+- SQL basics (SELECT, WHERE, GROUP BY)
+- JOIN and connecting Python with a database (SQLite)
+
+WHAT WAS PRACTICED
+- Built a line chart of "Hours Studied" across days of the week, with custom color and markers
+- Built a bar chart comparing hours studied per day using category labels
+- Generated 50 random values and plotted a histogram to view frequency distribution
+- Used seaborn's built-in "diamonds" dataset (~54,000 rows) for real-data practice
+- Plotted a scatter plot of carat vs price to visually check correlation, using alpha transparency for large datasets
+- Computed a correlation matrix (carat, price, depth, table) and visualized it as a heatmap
+- Found carat vs price correlation = 0.92 (strong positive) and depth vs price = -0.01 (negligible)
+- Created a SQLite database (shop.db) using Python's built-in sqlite3 module
+- Created an "orders" table and inserted 5 sample rows
+- Wrote and ran a WHERE query (filter orders above price 1000)
+- Wrote and ran a GROUP BY query (total spend per customer)
+- Wrote and ran a filter query (all Laptop orders)
+- Created a second table "customers" and used JOIN to combine customer city info with order data
+
+learning outcomes : Data Visualization Mastery: Learned to select and implement the correct plot types (line, bar, histogram, scatter) using Matplotlib and Seaborn, including interpreting statistical relationships via correlation heatmaps.
+Database Fundamentals & Python Integration: Acquired hands-on experience setting up an SQLite database in Python (`sqlite3`), structuring tables, managing data, and querying results using essential SQL clauses (`WHERE`, `GROUP BY`, and `JOIN`).
