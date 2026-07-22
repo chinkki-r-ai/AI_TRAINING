@@ -1,0 +1,44 @@
+## Day 8 – Learning Outcomes
+
+### 1. Python Environment & Dependency Management
+- Learned to identify and resolve the `externally-managed-environment` error on Debian/Ubuntu systems (PEP 668)
+- Understood the difference between system-wide Python and virtual environments (`venv`)
+- Learned to activate and correctly use a virtual environment (`.venv`) for isolated package installs
+- Diagnosed a mismatch between `python` and `pip` paths using `which python` / `which pip`
+- Learned the safest way to install packages inside a venv: `python -m pip install <package>` (avoids PATH mismatches between python and pip binaries)
+- Practiced verifying installed packages using `pip show <package>`
+
+### 2. Jupyter Notebook & Kernel Configuration
+- Learned how notebook kernels can be different from terminal environments, even when both show `.venv`
+- Understood the importance of selecting the correct Python interpreter/kernel in VS Code before running notebook cells
+- Practiced restarting kernels after installing new packages to ensure they're recognized
+
+### 3. Data Loading & Exploration (Pandas)
+- Loaded a CSV dataset using `pandas.read_csv()`
+- Explored dataset structure using `.shape`, `.columns`, `.info()`, and `.describe()`
+- Identified categorical vs numerical columns and checked for missing values
+
+### 4. Data Preprocessing for Machine Learning
+- Dropped irrelevant identifier columns (`Id`) before modeling
+- Encoded categorical variables using one-hot encoding (`pd.get_dummies()`)
+- Split data into features (`X`) and target (`y`)
+- Performed train-test split using `train_test_split()` from scikit-learn
+
+### 5. Regression Modeling
+- Trained a **Linear Regression** model using scikit-learn
+- Trained a **Random Forest Regressor** as a comparison model
+- Understood the difference between a simple linear model and an ensemble-based model
+
+### 6. Model Evaluation & Interpretation
+- Evaluated models using **MAE**, **RMSE**, and **R² Score**
+- Learned how to interpret a **negative R² score** (model performs worse than simply predicting the mean)
+- Understood that a more complex model (Random Forest) performing worse than a simpler one (Linear Regression) is a signal of weak/no real relationship in the data, not a coding error
+- Practiced diagnosing whether poor model performance stems from data quality (e.g., synthetic/random data) vs. modeling mistakes
+
+### 7. Data Visualization
+- Plotted **Actual vs Predicted** values to visually assess model performance
+- Plotted feature relationships (e.g., Area vs Price) to check for real underlying patterns
+
+### 8. Critical Thinking & Communication
+- Learned to draw an honest, evidence-based conclusion when a model underperforms, rather than assuming failure
+- Practiced articulating findings clearly for a project write-up, even when results aren't "impressive" — recognizing and explaining *why* is itself a valuable skill
