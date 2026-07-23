@@ -1,0 +1,13 @@
+
+
+**Day 9 – Learning Outcomes**
+
+- **Transformers:** Understand self-attention and why it replaced RNNs for parallel, long-range text processing.
+- **Tokens & Embeddings:** Know how text is broken into tokens and converted into vectors that capture meaning.
+- **Prompt Engineering:** Apply zero-shot, few-shot, and chain-of-thought techniques to get reliable LLM outputs.
+- **RAG:** Understand how retrieval + generation grounds LLM answers in real data to reduce hallucination.
+- **Vector Databases:** Know how embeddings are stored and searched via similarity for fast semantic retrieval.
+- **LangChain:** Use prompts, chains, and retrievers to build LLM-powered pipelines with minimal boilerplate.
+- **AI Agents:** Understand how LLMs use tools and the ReAct loop to reason and act toward a goal.
+- **Responsible AI:** Recognize fairness, safety, and transparency principles needed for trustworthy AI systems.
+
