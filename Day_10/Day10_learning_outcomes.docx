@@ -1,0 +1,19 @@
+# Day 10 Learning Summary: MLOps Concepts & Basics
+
+# 1. Packaging & Application Basics
+
+* Docker Concepts: Standardized how code and software dependencies are packaged into lightweight, isolated containers. This ensures that an application runs the exact same way on a local computer as it does on a remote server, eliminating the "it works on my machine" problem.
+* FastAPI: Conceptualized how Python web APIs are built to take input data and return predictions. Learned how automatic validation works to ensure incoming user data is correctly formatted before sending it to a model.
+* REST API Principles: Understood the fundamentals of REST architecture, including using HTTP requests (`POST` to send data for predictions, `GET` to check service status) and status codes (like `200 OK` or `404 Not Found`) to communicate between systems.
+
+
+# 2. Saving Models & Tracking Experiments
+
+* Model Serialization (`pickle` / `joblib`): Learned how to convert trained Python machine learning models into saved files on disk. This allows pre-trained models to be loaded instantly to make predictions without having to re-train them every time.
+* MLflow: Explored how to log metrics (like accuracy) and parameters during machine learning training. Understood how a central model registry keeps track of different model versions over time.
+
+# 3. Automation & Deployment
+
+* CI/CD Fundamentals: Studied the basics of Continuous Integration and Continuous Delivery, which automate the process of testing and publishing code updates safely and frequently.
+* GitHub Actions: Learned how automated triggers can automatically run tests or build container images whenever new code is saved or pushed to a repository.
+* Cloud Deployment (AWS / Azure): Reviewed cloud platforms that host containerized applications online, making them accessible to users and scalable when traffic increases.
